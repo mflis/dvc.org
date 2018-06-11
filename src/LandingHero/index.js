@@ -5,6 +5,7 @@ import Router from 'next/router'
 import { media } from '../styles'
 import DownloadButton from '../DownloadButton'
 import TextRotate from '../TextRotate'
+import RandomText from '../RandomText'
 
 const getStarted = () => {
   window.scrollTo(0, 0)
@@ -15,6 +16,18 @@ export default ({}) => (
   <LandingHero>
     <About>
       <Title>
+        <OnlyMobile>
+          <RandomText
+            textBefore={`Open-source`}
+            words={[
+              `Version Control System`,
+              `Experiments Framework`,
+              `Deployment & Collaboration`
+            ]}
+            textAfter={`for Data Science Projects.`}
+          />
+        </OnlyMobile>
+        <OnlyDesktop>
         <TextRotate
           textBefore={`Open-source`}
           words={[
@@ -24,6 +37,7 @@ export default ({}) => (
           ]}
           textAfter={`for Data Science Projects.`}
         />
+        </OnlyDesktop>
       </Title>
       <Buttons>
         <OnlyMobile>
@@ -127,12 +141,10 @@ const Title = styled.h1`
   padding-right: 2em;
 
   ${media.phablet`
-    font-size: 22px;
     padding: 0px;
   `};
 
   @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
-    font-size: 22px;
     padding: 0px;
   }
 `
