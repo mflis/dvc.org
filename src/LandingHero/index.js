@@ -6,6 +6,7 @@ import { media } from '../styles'
 import DownloadButton from '../DownloadButton'
 import TextRotate from '../TextRotate'
 import RandomText from '../RandomText'
+import GithubLine from '../GithubLine'
 
 const getStarted = () => {
   window.scrollTo(0, 0)
@@ -28,15 +29,15 @@ export default ({}) => (
           />
         </OnlyMobile>
         <OnlyDesktop>
-        <TextRotate
-          textBefore={`Open-source`}
-          words={[
-            `Version Control System`,
-            `Experiments Framework`,
-            `Deployment & Collaboration`
-          ]}
-          textAfter={`for Data Science Projects.`}
-        />
+          <TextRotate
+            textBefore={`Open-source`}
+            words={[
+              `Version Control System`,
+              `Experiments Framework`,
+              `Deployment & Collaboration`
+            ]}
+            textAfter={`for Data Science Projects.`}
+          />
         </OnlyDesktop>
       </Title>
       <Buttons>
@@ -63,6 +64,10 @@ export default ({}) => (
           </ActionInner>
         </WatchButton>
       </Buttons>
+
+      <Github>
+        <GithubLine />
+      </Github>
     </About>
 
     <Commands>
@@ -297,4 +302,23 @@ const Line = styled.span`
   font-size: 15px;
   font-weight: 500;
   padding: 0px 0px 0px 12px;
+`
+
+const Github = styled.div`
+  margin-top: 51px;
+  font-size: 14px;
+  font-weight: 500;
+  color: #b0b8c5;
+
+  ${media.phablet`
+    align-items: center;
+    margin-top: 24px;
+    font-size: 18px;
+  `};
+
+  @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+    align-items: center;
+    margin-top: 24px;
+    font-size: 18px;
+  }
 `
