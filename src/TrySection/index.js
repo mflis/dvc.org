@@ -41,7 +41,7 @@ const Title = styled.h3`
   max-width: 438px;
   min-height: 44px;
   font-size: 30px;
-  font-weight: 500;
+  font-family: "BrandonGrotesqueMed";
   text-align: center;
   color: #ffffff;
   margin: 0px auto;
@@ -64,7 +64,7 @@ const Button = styled.button`
   border: solid 2px rgba(255, 255, 255, 0.3);
 
   font-size: 20px;
-  font-weight: 500;
+  font-family: "BrandonGrotesqueMed";
   line-height: 0.9;
 
   text-align: left;

@@ -140,7 +140,7 @@ const About = styled.div`
 
 const Title = styled.h1`
   font-size: 40px;
-  font-weight: 500;
+  font-family: "BrandonGrotesqueMed";
   color: #40364d;
   font-family: BrandonGrotesqueMed;
   padding-right: 2em;
@@ -195,7 +195,7 @@ const ActionIcon = styled.div`
 const ActionInner = styled.div``
 const Action = styled.h6`
   font-size: 20px;
-  font-weight: 500;
+  font-family: "BrandonGrotesqueMed";
   line-height: 0.9;
 `
 const Description = styled.p`
@@ -224,7 +224,7 @@ const GetStartedButton = styled.a`
   display: flex;
   padding: 0px 0px 0px 20px;
   font-size: 20px;
-  font-weight: 500;
+  font-family: "BrandonGrotesqueMed";
   color: #fff;
   line-height: 0.9;
   border: solid 2px transparent;
@@ -299,15 +299,15 @@ const Commands = styled.div`
 `
 
 const Line = styled.span`
-  font-size: 15px;
-  font-weight: 500;
-  padding: 0px 0px 0px 12px;
+  font-size: 20px;
+  font-family: "BrandonGrotesqueMed";
+  padding: 4px 0px 0px 12px;
 `
 
 const Github = styled.div`
   margin-top: 51px;
   font-size: 14px;
-  font-weight: 500;
+  font-family: "BrandonGrotesqueMed";
   color: #b0b8c5;
 
   ${media.phablet`

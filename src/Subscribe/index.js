@@ -82,7 +82,7 @@ const Title = styled.h3`
   min-width: 550px;
   min-height: 44px;
   font-size: 30px;
-  font-weight: 500;
+  font-family: "BrandonGrotesqueMed";
   color: #ffffff;
   margin: 0px auto;
   text-align: center;

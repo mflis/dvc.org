@@ -187,7 +187,7 @@ const Name = styled.h3`
   margin-bottom: 10px;
 
   font-size: 20px;
-  font-weight: 500;
+  font-family: "BrandonGrotesqueMed";
   color: #40364d;
 
   min-height: 28px;

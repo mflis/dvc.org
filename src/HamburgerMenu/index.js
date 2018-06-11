@@ -207,7 +207,7 @@ const Heading = styled.h2`
   opacity: 0.61;
   color: #fff;
   font-size: 20px;
-  font-weight: 100;
+  font-family: "BrandonGrotesqueLight";
 `
 
 const Link = styled.a`

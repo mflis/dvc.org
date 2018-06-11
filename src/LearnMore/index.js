@@ -25,6 +25,6 @@ const Icon = styled.div`
 const Caption = styled.p`
   line-height: 23px;
   font-size: 14px;
-  font-weight: 500;
+  font-family: "BrandonGrotesqueMed";
   color: #b0b8c5;
 `

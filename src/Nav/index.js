@@ -22,14 +22,15 @@ export default ({ mobile = false }) => (
 const Links = styled.div`
   display: flex;
   flex-direction: row;
+  padding-top: 4px;
 `
 
 const Link = styled.a`
   text-decoration: none;
   text-transform: uppercase;
 
-  font-size: 13px;
-  font-weight: bold;
+  font-family: "BrandonGrotesqueMed";
+  font-size: 13px;  
   color: #838d93;
 
   margin-left: 30px;
@@ -42,7 +43,7 @@ const Link = styled.a`
   ${props =>
     props.bold &&
     `
-    font-weight: bold;
+    font-family: "BrandonGrotesqueMed";
   `};
 `
 
@@ -57,7 +58,7 @@ const Button = styled.button`
   color: #fff;
   cursor: pointer;
   font-size: 14px;
-  font-weight: 500;
+  font-family: "BrandonGrotesqueMed";
 `
 
 const Nav = styled.div`
@@ -79,14 +80,16 @@ const Nav = styled.div`
 `
 
 const GetStartedButton = styled.button`
+  min-width: 112px;
+  line-height: 36px;
   text-decoration: none;
   margin-left: 40px;
   border-radius: 4px;
   background-color: #13adc7;
   color: #fff;
   height: 36px;
-  font-size: 15px;
-  font-weight: 500;
+  font-size: 16px;
+  font-family: "BrandonGrotesqueMed";
   border: none;
   cursor: pointer;
 `

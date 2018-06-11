@@ -1778,7 +1778,7 @@ const SectionLink = styled.a`
   display: block;
   position: relative;
   font-size: 18px;
-  font-weight: 500;
+  font-family: "BrandonGrotesqueMed";
   color: #b0b8c5;
   text-decoration: none;
 
@@ -1818,7 +1818,7 @@ const SectionLink = styled.a`
   ${props =>
     props.underlined &&
     `
-	  font-weight: bold;
+	  font-family: "BrandonGrotesqueMed";
 	`};
 `
 
@@ -1856,7 +1856,7 @@ const CodeBlock = styled(SyntaxHighlighter)`
 
 const Definition = styled.b`
   color: #40364d;
-  font-weight: bold;
+  font-family: "BrandonGrotesqueMed";
 `
 
 const Line = styled.div`

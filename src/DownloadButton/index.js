@@ -12,7 +12,7 @@ const LINE = `line`
 
 const links = {
   [OSX]: {
-    title: 'Mac OS',
+    title: 'Mac OSX',
     url: `https://github.com/iterative/dvc/releases/download/0.9.7/dvc-0.9.7.pkg`
   },
   [WINDOWS]: {
@@ -202,10 +202,11 @@ const Inner = styled.div`
 
 const Action = styled.h6`
   font-size: 20px;
-  font-weight: 500;
+  font-family: "BrandonGrotesqueMed";
   line-height: 0.9;
 `
 const Description = styled.p`
+  font-family: "BrandonGrotesqueLight";
   padding-top: 4px;
   font-size: 13px;
   text-align: left;
@@ -249,7 +250,7 @@ const item = css`
 
   display: flex;
   align-items: center;
-  font-weight: bold;
+  font-family: "BrandonGrotesqueMed";
   text-decoration: none;
 
   color: #b0b8c5;

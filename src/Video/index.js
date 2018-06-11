@@ -181,7 +181,7 @@ const ButtonIcon = styled.div`
 const ButtonInner = styled.div``
 const Action = styled.h6`
   font-size: 20px;
-  font-weight: 500;
+  font-family: "BrandonGrotesqueMed";
   line-height: 0.9;
 `
 const Description = styled.p`

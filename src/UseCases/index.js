@@ -113,7 +113,7 @@ const Right = styled.div`
 const Heading = styled.div`
   min-height: 44px;
   font-size: 30px;
-  font-weight: 500;
+  font-family: "BrandonGrotesqueMed";
   color: #40364d;
 `
 
@@ -138,7 +138,7 @@ const Icon = styled.div`
 
 const Title = styled.h3`
   font-size: 16px;
-  font-weight: 500;
+  font-family: "BrandonGrotesqueMed";
   color: #40364d;
 `
 

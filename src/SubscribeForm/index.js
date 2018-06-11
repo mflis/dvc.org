@@ -56,7 +56,7 @@ const Input = styled.input`
   border: none;
   border-radius: 4px 0px 0px 4px;
   font-size: 18px;
-  font-weight: 500;
+  font-family: "BrandonGrotesqueMed";
 `
 
 const Button = styled.button`
@@ -65,7 +65,7 @@ const Button = styled.button`
   border-radius: 0px 4px 4px 0px;
   background-color: #e4fbff;
   font-size: 16px;
-  font-weight: 500;
+  font-family: "BrandonGrotesqueMed";
   color: #13adc7;
   cursor: pointer;
 

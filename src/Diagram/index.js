@@ -95,7 +95,7 @@ const Title = styled.div`
   max-width: 550px;
   min-height: 44px;
   font-size: 30px;
-  font-weight: 500;
+  font-family: "BrandonGrotesqueMed";
   text-align: center;
   color: #40364d;
   margin: 0px auto;
@@ -152,7 +152,7 @@ const Column = styled.div`
 const Caption = styled.h3`
   margin-bottom: 12px;
   font-size: 20px;
-  font-weight: 500;
+  font-family: "BrandonGrotesqueMed";
   color: ${props => props.text};
 `
 
@@ -169,7 +169,7 @@ const Description = styled.div`
 const LearnMoreArea = styled.div`
   line-height: 28px;
   font-size: 20px;
-  font-weight: 500;
+  font-family: "BrandonGrotesqueMed";
   color: #945dd6;
 
   img {

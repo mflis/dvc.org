@@ -30,5 +30,5 @@ const Input = styled.input`
   background-repeat: no-repeat;
   background-position: 15px center;
   font-size: 14px;
-  font-weight: 500;
+  font-family: "BrandonGrotesqueMed";
 `
