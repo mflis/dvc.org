@@ -263,6 +263,10 @@ const Command = styled.div`
 
   ${media.phablet`
     width: 100%;
+    animation: none;
+    opacity: 1;
+    color: #40364d;
+    overflow-x: scroll;
   `} opacity: 0.28;
   color: #b4b9c4;
 
