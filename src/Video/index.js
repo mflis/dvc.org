@@ -182,7 +182,6 @@ const ButtonInner = styled.div``
 const Action = styled.h6`
   font-size: 20px;
   font-family: "BrandonGrotesqueMed";
-  line-height: 0.9;
 `
 const Description = styled.p`
   font-size: 14px;

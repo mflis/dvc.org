@@ -1748,7 +1748,6 @@ const Inner = styled.div`
     max-width: auto;
   `} color: #5f6c72;
   font-size: 18px;
-  line-height: 1.5;
 `
 
 const TutorialLink = styled.a`
@@ -1870,7 +1869,6 @@ const Paragraph = styled.p`
   margin: 22px 0px;
   font-size: 18px;
   color: #5f6c72;
-  line-height: 1.5;
 
   * {
     color: #5f6c72;

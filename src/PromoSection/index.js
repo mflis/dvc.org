@@ -68,6 +68,7 @@ const Buttons = styled.div`
 const Button = styled.button`
   cursor: pointer;
   min-width: 186px;
+  line-height: 60px;
   height: 60px;
   border-radius: 4px;
   background-color: #945dd6;
@@ -75,7 +76,6 @@ const Button = styled.button`
 
   font-size: 20px;
   font-family: "BrandonGrotesqueMed";
-  line-height: 0.9;
 
   text-align: left;
   padding: 0px 21px;

@@ -23,7 +23,6 @@ const Heading = styled.h1`
   min-height: 185px;
   font-size: 40px;
   font-family: "BrandonGrotesqueMed";
-  line-height: 1.4;
   text-align: center;
   color: #40364d;
 `

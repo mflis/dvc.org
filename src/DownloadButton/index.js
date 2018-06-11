@@ -177,7 +177,6 @@ const Button = styled.button`
 
   padding: 0px;
   background-color: #945dd6;
-  line-height: 1.29;
   color: #ffffff;
 
   cursor: pointer;
@@ -202,12 +201,12 @@ const Inner = styled.div`
 
 const Action = styled.h6`
   font-size: 20px;
+  height: 20px;
   font-family: "BrandonGrotesqueMed";
-  line-height: 0.9;
 `
+
 const Description = styled.p`
   font-family: "BrandonGrotesqueLight";
-  padding-top: 4px;
   font-size: 13px;
   text-align: left;
 `
@@ -245,7 +244,6 @@ const Links = styled.div`
 const item = css`
   display: block;
   min-height: 36px;
-  line-height: 1.29;
   padding: 0px 17px;
 
   display: flex;

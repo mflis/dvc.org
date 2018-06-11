@@ -196,7 +196,6 @@ const ActionInner = styled.div``
 const Action = styled.h6`
   font-size: 20px;
   font-family: "BrandonGrotesqueMed";
-  line-height: 0.9;
 `
 const Description = styled.p`
   font-size: 14px;
@@ -226,7 +225,6 @@ const GetStartedButton = styled.a`
   font-size: 20px;
   font-family: "BrandonGrotesqueMed";
   color: #fff;
-  line-height: 0.9;
   border: solid 2px transparent;
 `
 
