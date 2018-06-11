@@ -105,7 +105,8 @@ const Right = styled.div`
 
   ${media.phablet`
     flex-basis: auto;
-    order: 1;
+    order: 2;
+    margin-top: 42px;
   `};
 `
 
