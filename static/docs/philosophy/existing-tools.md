@@ -28,7 +28,7 @@ fully integrated with the local environment.
 
 The separation of the local data scientist environment and the experimentation
 cloud environment creates another discrepancy issue and the environment
-synchronization requires addition work. Also, this style of software usually
+synchronization requires additional work. Also, this style of software usually
 require external services, typically accompanied with a monthly bill. This might
 be a good solution for a particular companies or groups of data scientists.
 However a more accessible, free tool is needed for a wider audience.
